@@ -1,0 +1,41 @@
+.card{
+    max-width: 1100px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card-area{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-area .card-image{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .card{
+        max-width: 1100px;
+        margin: 10px auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .card-area{
+        margin: 0 auto;  
+        align-items: center;
+    }
+    
+    .card-area .card-image{
+        height: 150px;
+        width: 150px;
+        padding-left: -15px;
+        padding-right: -15px;
+    }
+  }
+  
